@@ -1,0 +1,101 @@
+$font-family:   "Roboto ";
+$font-size:     14px ;
+$color-primary: #ABA194 ;
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: $ font-family;
+	font-size: $font-size;
+
+	background: linear-gradient(45deg, #49D49D 10%, #A2C7E5 90%);
+	
+}
+
+.user {
+	width: 90%;
+	max-width: 340px;
+	margin: 0vh auto;
+}
+
+.error {
+	font-family: $ font-family;
+	font-size: $font-size;
+	color: black;
+	opacity: 1;
+}
+
+.user__header {
+	text-align: center;
+}
+
+
+
+.user__title {
+	font-size: $font-size;
+	margin-bottom: -10px;
+	font-weight: 500;
+	color: white;
+}
+
+.form {
+	
+	margin-top: 40px;
+	border-radius: 6px;
+	overflow: hidden;
+}
+
+.form__input {
+	
+	display: block;
+	width: 100%;
+	padding: 20px;
+	font-family: $ font-family;
+	color:grey;
+	border: 0;
+	outline: 0;
+	background:black;
+}
+
+.form__text{
+	text-align:center;
+	font-family: $ font-family;
+	outline: 0;
+	
+	background: black;
+	color: Grey;
+	
+}
+
+
+.form__input:hover {
+  background: #f7f7f7;
+}
+
+.btn {
+	display: block;
+	width: 100%;
+	padding: 20px;
+	font-family: $ font-family;
+	outline: 0;
+	border: 0;
+	color: white;
+	background: grey;
+	
+}
+
+.btn:hover {
+	background: lightgrey;
+}
+
+
+
+
+
+
+
+
